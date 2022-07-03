@@ -1,0 +1,110 @@
+@import url("./root.css");
+.nav {
+  display: grid;
+  place-items: center;
+  background: var(--red);
+  padding: 1rem 1rem;
+}
+.logo-responsive {
+  margin-bottom: 1rem;
+}
+.seach-pokemon {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 720px;
+}
+.search-text {
+  width: 90%;
+}
+.search-text input {
+  color: var(--black);
+  width: 90%;
+  border-radius: 255px;
+  padding: 0.5rem 2rem;
+  border: none;
+  background: white;
+}
+.search-button button {
+  cursor: pointer;
+  width: 34.4px;
+  height: 34.4px;
+  border-radius: 255px;
+  background-color: var(--red-light);
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-button button:hover {
+  background-color: #ff868675;
+}
+.no-api {
+  margin-top: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.no-api p {
+  color: var(--red-light);
+  margin-top: 1rem;
+  text-align: center;
+}
+.yes-api {
+  margin-top: 10vh;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.yes-api img {
+  width: 200px;
+  background-color: #f0f0f0;
+  border-radius: 50px;
+  position: relative;
+  z-index: 100;
+}
+.yes-api h4 {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  background-color: var(--red);
+  width: 200px;
+  color: white;
+  text-align: center;
+  padding: 6rem 0 1rem 0;
+  border-radius: 50px;
+  position: relative;
+  bottom: 87px;
+}
+.yes-api p {
+  text-align: center;
+  color: var(--gray);
+  font-size: 1rem;
+  position: relative;
+  bottom: 60px;
+}
+.yes-api span {
+  color: rgb(253, 213, 59);
+  font-weight: 600;
+
+  letter-spacing: 1px;
+  position: relative;
+  bottom: 25px;
+}
+.error {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: var(--black);
+  color: white;
+  padding: 1rem;
+  transition: 0.3s;
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
+  letter-spacing: 0.145rem;
+  opacity: 0;
+}

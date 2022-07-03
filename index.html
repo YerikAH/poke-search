@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>PokeSearch</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="logo-responsive">
+        <img src="./svg/logo.svg" alt="logo pokemon" />
+      </div>
+      <div class="seach-pokemon">
+        <div class="search-text">
+          <input
+            id="input"
+            type="text"
+            placeholder="write a name or ID of a pokemon"
+            name="search"
+          />
+        </div>
+        <div class="search-button">
+          <button id="btn">
+            <img src="./svg/lup.svg" alt="search" />
+          </button>
+        </div>
+      </div>
+      <p class="error" id="error">An error has occurred. Please try again</p>
+    </nav>
+    <main>
+      <div class="no-api" id="noApi">
+        <img src="./svg/desk.svg" alt="pokeball" />
+        <p>What pokemon do you want to look for pokemon trainer?</p>
+      </div>
+      <div class="father-yes">
+        <div id="yes-api" class="yes-api"></div>
+      </div>
+    </main>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
